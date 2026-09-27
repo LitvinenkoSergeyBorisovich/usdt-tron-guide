@@ -3,3 +3,5 @@
 @media(max-width:720px){.wrap{padding:0 20px}.edition{font-size:10px;letter-spacing:1px}.top{gap:10px}.hero{grid-template-columns:1fr;gap:25px;padding-top:32px}.hero-card{margin-right:8px}.grid,.two{grid-template-columns:1fr}h1{letter-spacing:-1.5px}nav{gap:6px}nav a{padding:8px 12px;font-size:12px}.card{padding:21px}.pager{align-items:flex-start;flex-direction:column}section{margin:28px 0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white;font-size:12px}.wrap{max-width:none}.skip,nav,.pager{display:none}.hero{padding-top:20px}h1{font-size:36px}.hero-card{box-shadow:none}.card{break-inside:avoid}a{color:inherit}details{display:block}details::details-content{content-visibility:visible}}
 .hero>*{min-width:0}@media(max-width:720px){.route{gap:4px}.route b{padding:9px 6px;font-size:11px}.route span{font-size:13px}}
 @media(min-width:721px) and (max-width:1000px){.hero{grid-template-columns:1fr}.hero-card{max-width:600px}.grid{grid-template-columns:1fr}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.card code,.source code{overflow-wrap:anywhere}
